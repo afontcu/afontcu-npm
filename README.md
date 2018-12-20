@@ -1,0 +1,2 @@
+# afontcu-npm
+npx afontcu :)
