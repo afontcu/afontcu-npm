@@ -1,0 +1,23 @@
+{
+  "name": "afontcu",
+  "version": "1.0.0",
+  "description": "npx afontcu :)",
+  "bin": {
+    "afontcu": "./bin/index.js"
+  },
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/afontcu/afontcu-npm.git"
+  },
+  "keywords": [],
+  "author": "Adrià Fontcuberta (http://fontcuberta.cat)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/afontcu/afontcu-npm/issues"
+  },
+  "homepage": "https://github.com/afontcu/afontcu-npm#readme",
+  "dependencies": {
+    "colorette": "^1.0.7"
+  }
+}
