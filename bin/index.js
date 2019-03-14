@@ -7,7 +7,7 @@ const work = white(
 )
 const twitter = cyan('https://twitter.com/afontcu_')
 const github = cyan('https://github.com/afontcu')
-const web = cyan('http://fontcuberta.cat')
+const web = cyan('https://afontcu.dev')
 const blog = cyan('https://medium.com/@afontcu')
 const news = cyan('https://buttondown.email/afontcu')
 const npx = white('npx afontcu')
