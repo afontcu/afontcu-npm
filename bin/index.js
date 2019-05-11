@@ -3,12 +3,11 @@ const { white, cyan, bold } = require('colorette')
 
 // Text + chalk definitions
 const work = white(
-  `I'm a frontend developer trying to build the right(?) thing right(?)`
+  `I'm a frontend engineer trying to build the right(?) thing right(?)`
 )
 const twitter = cyan('https://twitter.com/afontcu_')
 const github = cyan('https://github.com/afontcu')
 const web = cyan('https://afontcu.dev')
-const blog = cyan('https://medium.com/@afontcu')
 const news = cyan('https://buttondown.email/afontcu')
 const npx = white('npx afontcu')
 
@@ -18,7 +17,6 @@ const workLine = `${white(bold('         Work:'))}  ${work} ${newline}`
 const twitterLine = `${white(bold('      Twitter:'))}  ${twitter} ${newline}`
 const githubLine = `${white(bold('       GitHub:'))}  ${github} ${newline}`
 const webLine = `${white(bold('          Web:'))}  ${web} ${newline}`
-const blogLine = `${white(bold('         Blog:'))}  ${blog} ${newline}`
 const newsLine = `${white(bold('   Newsletter:'))}  ${news} ${newline}`
 const npxLine = `${white(bold('         Card:'))}  ${npx} ${newline}`
 
@@ -27,10 +25,9 @@ const output =
   headingLine +
   newline +
   workLine +
+  webLine +
   twitterLine +
   githubLine +
-  webLine +
-  blogLine +
   newsLine +
   newline +
   npxLine
