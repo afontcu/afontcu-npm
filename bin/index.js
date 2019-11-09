@@ -5,7 +5,7 @@ const { white, cyan, bold } = require('colorette')
 const work = white(
   `I'm a frontend engineer trying to build the right(?) thing right(?)`
 )
-const twitter = cyan('https://twitter.com/afontcu_')
+const twitter = cyan('https://twitter.com/afontq')
 const github = cyan('https://github.com/afontcu')
 const web = cyan('https://afontcu.dev')
 const news = cyan('https://buttondown.email/afontcu')
