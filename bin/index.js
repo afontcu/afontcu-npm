@@ -3,7 +3,7 @@ const { white, cyan, bold } = require('colorette')
 
 // Text + chalk definitions
 const work = white(
-  `I'm a frontend engineer trying to build the right(?) thing right(?)`
+  `I'm a software engineer trying to build the right(?) thing right(?)`
 )
 const twitter = cyan('https://twitter.com/afontq')
 const github = cyan('https://github.com/afontcu')
